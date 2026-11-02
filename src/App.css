@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 40px;
+  max-width: 650px;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #38bdf8;
+}
+
+h3 {
+  color: #4ade80;
+}
